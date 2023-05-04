@@ -49,6 +49,20 @@ export default {
     return {
       menuList: [
         {
+          icon: "el-icon-s-marketing",
+          title: "风控管理",
+          children: [
+            {
+              name: "风控试算",
+              router: "/Risk"
+            },
+            {
+              name: "风控管理2",
+              router: "/Tabl2"
+            }
+          ]
+        },
+        {
           icon: "el-icon-s-promotion",
           title: "指令管理",
           children: [
@@ -109,7 +123,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped="scoped">
 .el-container {
   height: 100%;
 }
