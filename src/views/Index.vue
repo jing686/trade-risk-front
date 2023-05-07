@@ -53,7 +53,7 @@ export default {
           title: "风控管理",
           children: [
             {
-              name: "风控试算",
+              name: "指令风控试算",
               router: "/Risk"
             },
             {
